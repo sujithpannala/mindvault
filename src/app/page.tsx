@@ -64,7 +64,6 @@ export default function HomePage() {
 
   return (
     <div className="flex h-screen">
-      {/* Sidebar */}
       <aside className="w-72 border-r border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 flex flex-col">
         <div className="p-4 border-b border-zinc-200 dark:border-zinc-800">
           <h1 className="text-xl font-semibold tracking-tight">MindVault</h1>
@@ -131,7 +130,6 @@ export default function HomePage() {
         </div>
       </aside>
 
-      {/* Main editor area */}
       <main className="flex-1 flex flex-col bg-zinc-50 dark:bg-zinc-950">
         {selectedNote ? (
           <>
